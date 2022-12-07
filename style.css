@@ -1,0 +1,418 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .egg {
+     background-image: url(./image-transform.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 15rem 0 15rem 0;
+     width: 100%;
+ }
+
+ .fwhite {
+     background-color: white;
+     padding: 17% 5% 16% 5%;
+     text-align: center;
+ }
+
+ .fwhite h3 {
+     font-size: 30px;
+ }
+
+ .fwhite p {
+     color: grey;
+     font-size: 20px;
+     margin: 6% 0 6% 0;
+     padding: 0 8% 0 8%;
+ }
+
+ .fwhite button {
+     padding: .7rem;
+     border-radius: 10px;
+     border: none;
+     background-color: white;
+     border-bottom: 3px solid rgb(244, 244, 5);
+     width: 30%;
+     cursor: pointer;
+     box-shadow: .5px 1px 1px 2px #888888;
+ }
+
+ .fwhite button:hover {
+     padding: .7rem;
+     border-radius: 10px;
+     border: none;
+     background-color: white;
+     border-bottom: 3px solid rgb(242, 112, 134);
+ }
+
+
+ .pink {
+     width: 100%;
+     background-image: url(./image-stand-out.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 15rem 0 15rem 0;
+ }
+
+ .swhite {
+     background-color: white;
+     padding: 7% 5% 7% 5%;
+     text-align: center;
+ }
+
+ .swhite h3 {
+     font-size: 30px;
+ }
+
+ .swhite p {
+     color: grey;
+     font-size: 20px;
+     margin: 6% 0 6% 0;
+     padding: 0 8% 0 8%;
+ }
+
+ .swhite button {
+     padding: .7rem;
+     border-radius: 10px;
+     border: none;
+     background-color: white;
+     border-bottom: 3px solid rgb(242, 112, 134);
+     width: 30%;
+     cursor: pointer;
+     box-shadow: .5px 1px 1px 2px #888888;
+ }
+
+ .swhite button:hover {
+     padding: .7rem;
+     border-radius: 10px;
+     border: none;
+     background-color: white;
+     border-bottom: 3px solid rgb(245, 245, 4);
+ }
+
+ .grape {
+     background-image: url(./image-graphic-design.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     padding: 20rem 0rem 2em 0rem;
+ }
+
+ .grape h3 {
+     color: rgb(85, 83, 83);
+     margin: 5% 0 5% 0;
+     text-align: center;
+     font-size: 2em;
+ }
+
+ .grape p {
+     color: rgb(43, 41, 41);
+     text-align: center;
+     margin: 6% 0 6% 0;
+     padding: 0 8% 0 8%;
+     font-size: 20px;
+ }
+
+ .orange {
+     background-image: url(./image-photography.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     padding: 20rem 0rem 2em 0rem;
+ }
+
+ .orange h3 {
+     color: rgb(85, 83, 83);
+     margin: 5% 0 5% 0;
+     text-align: center;
+     font-size: 2em;
+ }
+
+ .orange p {
+     color: rgb(43, 41, 41);
+     text-align: center;
+     margin: 6% 0 6% 0;
+     padding: 0 8% 0 8%;
+     font-size: 20px;
+ }
+
+ .plainwhite {
+     background-color: white;
+ }
+
+ .plainwhite h3 {
+     color: grey;
+     width: 100%;
+     text-align: center;
+     padding: 5% 0 5% 0;
+ }
+
+ .plainwhite p {
+     font-size: 18px;
+ }
+
+ .emily,
+ .thomas,
+ .jennie {
+     text-align: center;
+     padding: 3em;
+ }
+
+ .img1 {
+     border-radius: 50%;
+ }
+
+ .textonly {
+     text-align: center;
+     padding: 5% 0 5% 0;
+ }
+
+ .text1 {
+     padding: 5% 0 5% 0;
+ }
+
+ .text {
+     width: 100%;
+ }
+
+ .text h3 {
+     color: black;
+ }
+
+ .text p {
+     color: grey;
+     text-align: center;
+ }
+
+ /* ................................... */
+ .images2 {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+ }
+
+ .images2 .img2 {
+     width: 100%;
+ }
+
+ /* ....................................... */
+ .last {
+     background-color: rgba(55, 207, 207, 0.979);
+     padding: 7% 0 7% 0;
+ }
+
+ .ltext h3 {
+     font-size: 20px;
+     text-align: center;
+     margin: 5% 0 5% 0;
+ }
+
+ .link {
+     text-align: center;
+     margin: 5% 0 5% 0;
+ }
+
+ .link a {
+     margin: 0 5% 0 5%;
+     text-decoration: none;
+     color: grey;
+ }
+
+ .link a:hover {
+     color: white;
+ }
+
+ .svg {
+     text-align: center;
+     margin: 5% 0 5% 0;
+ }
+
+ .svg svg {
+     fill: #2C7566;
+     margin: 2%;
+ }
+
+ svg:hover {
+     fill: #fff
+ }
+
+ .header {
+     background-image: url(./image-header.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1rem;
+ }
+
+
+ .arrow-down {
+     text-align: center;
+ }
+
+ .arrow-down h1 {
+     color: white;
+     text-transform: uppercase;
+     width: 60%;
+     font-size: 3rem;
+     margin: 2rem auto;
+ }
+
+ .arrow-down img {
+     margin-bottom: 10rem;
+ }
+
+ #checkbox:checked~nav {
+     display: block;
+ }
+
+ input {
+     display: none;
+ }
+
+ nav {
+     display: none;
+     position: absolute;
+     top: 15%;
+     left: 25%;
+     padding: 5rem;
+     width: 50%;
+     text-align: center;
+     background-color: #fff;
+ }
+
+ nav li {
+     padding: .5rem;
+     list-style-type: none;
+ }
+
+ nav a {
+     text-decoration: none;
+     text-transform: capitalize;
+     border-radius: 10px;
+ }
+
+ nav a:hover {
+     text-decoration: underline;
+ }
+
+ .inline {
+     display: none;
+ }
+
+ /* ................DESKTOP VIEW .......................*/
+
+ @media (min-width:800px) {
+     label {
+         display: none;
+     }
+
+     .inline {
+         display: block;
+     }
+
+     .inline li {
+         display: inline;
+         margin-left: 1rem;
+     }
+
+     .inline a {
+         text-decoration: none;
+         text-transform: uppercase;
+         color: white;
+     }
+
+     .inline a:hover {
+         text-decoration: underline;
+     }
+
+
+
+     .whiteyellow {
+         width: 100%;
+     }
+
+     .fwhite {
+         float: left;
+         width: 50%;
+         background-color: white;
+         padding: 7% 5% 7% 5%;
+     }
+
+     .egg {
+         float: right;
+         width: 50%;
+     }
+
+     .pinkwhite {
+         width: 100%;
+         display: flex;
+     }
+
+     .pink {
+         width: 50%;
+         float: left;
+     }
+
+     .swhite {
+         float: right;
+         width: 50%;
+         padding: 10px;
+         background-color: white;
+         padding: 5% 5% 5% 5%;
+     }
+
+     .grapeorange {
+         width: 100%;
+         display: flex;
+     }
+
+     .grape {
+         width: 50%;
+         background-image: url(./image-graphic-design.jpg);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         float: left;
+     }
+
+     .orange {
+         width: 50%;
+         background-image: url(./image-photography.jpg);
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         float: right;
+     }
+
+     .plainwhite {
+         background-color: white;
+     }
+
+     .images {
+         text-align: center;
+         display: flex;
+         justify-content: space-evenly;
+     }
+
+     .images2 {
+         display: flex;
+         width: 100;
+     }
+
+     .images2 .img2 {
+         width: 25%;
+     }
+
+ }
